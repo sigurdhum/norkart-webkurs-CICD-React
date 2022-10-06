@@ -23,6 +23,7 @@ const DrawComponent = (props) => {
       },
     });
     map.addControl(draw);
+    map.setStyle("mapbox://styles/mapbox/$dark-v10");
   }, [map]);
 
   // Se flere muligheter med Draw Modulen til MapBox: https://github.com/mapbox/mapbox-gl-draw/blob/main/docs/API.md
